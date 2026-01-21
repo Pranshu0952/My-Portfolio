@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* navbar stying start */
+.navbar{
+    display: flex;
+    height: 50px;
+    background-color: #5a727a;
+    justify-content: space-between;
+    padding: 10px;
+    justify-items: center;
+}
+.logo{
+    padding-left: 20px;
+}
+.logo img{
+    height: 40px;
+}
+.navbar-items{
+    display: flex;
+    padding-right: 30px;
+}
+.navbar-nav{
+    display: flex;
+    justify-items: center;
+    gap: 50px;
+    padding: 15px;
+    padding-right: 90px;
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    color: azure;
+    
+}
+.resume{
+    height: 40px;
+    background-color: #5806fb;
+    padding-top: 10px;
+    padding: 0 20px;
+    border-radius: 30px;
+    border:1px solid;
+}
+.resume a{
+    text-decoration: none;
+    color: azure;
+    
+}
+
+/* navbar stying end */
+
+/* home page styling start */
+.home{
+    display: flex;
+    background-color: #3d3c3c;
+    justify-content: space-between;
+    padding: 40px;
+}
+.home-info{
+    margin: 30px;
+}
+.home-info p{
+    padding-top: 70px;
+    font-size: 30px;
+}
+.home-info h1{
+    font-size: 40px;
+}
+.home-skills{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 30px;
+    list-style: none;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+.conect a{
+    margin: 20px;
+    border: 1px solid black;
+    /* height: 30px; */
+    /* width: 70px; */
+    background-color: #31cba7;
+    border-radius: 13px;
+    text-decoration: none;
+    color: azure;
+}
+.hero-img img{
+    border-radius: 50%;
+    margin: 30px;
+}
+/* home page styling end */
