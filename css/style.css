@@ -96,9 +96,6 @@
 /* home page styling end */
 
 /* About page styling start */
-
-
-/* About page styling end*/
 .about-value{
     background-color: #eee0e0;
 }
@@ -148,3 +145,36 @@
     color: aliceblue;
     cursor: pointer;
 }
+/* About page styling end*/
+
+/* project page styling start */
+.projects{
+    display: flex; 
+    /* gap: 10px; */
+    justify-content: space-between;
+    padding: 30px;
+}
+.project{
+    /* background-color: #ece4e4; */
+    width: 23%;
+    border: 2px solid #f1f1f1;
+}
+.project-desc{
+ padding:10px;
+}
+.project-links{
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+}
+.link-btn{
+    height: 25px;
+    width: 60px;
+    border-radius: 13px;
+    text-align: center;
+    /* margin: 10px; */
+    border: 2px solid #f1f1f1;
+    border-right-color: #4e7b90;
+    text-decoration: none;
+}
+/* project page styling end  */
