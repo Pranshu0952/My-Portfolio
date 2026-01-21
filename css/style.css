@@ -94,3 +94,57 @@
     margin: 30px;
 }
 /* home page styling end */
+
+/* About page styling start */
+
+
+/* About page styling end*/
+.about-value{
+    background-color: #eee0e0;
+}
+.text-center{
+    text-align: center;
+    padding: 40px;
+}
+.text-center h2 , p {
+    padding: 10px;
+}
+.text-center h2{
+    font-size: 34px;
+}
+.text-center p{
+    font-size: 18px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding:  0px 40px;
+    padding-bottom: 30px;
+
+}
+.about-img img{
+    border-radius: 13px;
+}
+.about-text{
+    width: 400px;
+    position: relative;
+
+}
+.about-text p{
+    font-size: 18px;
+}
+.about-text button{
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    background: #ee9797;
+    font-size: 16px;
+    color: aliceblue;
+    cursor: pointer;
+}
