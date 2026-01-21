@@ -178,3 +178,21 @@
     text-decoration: none;
 }
 /* project page styling end  */
+
+/* Education page styling start */
+.education{
+    padding: 30px;
+}
+.edu-box{
+    background-color:    #e0d6d6;
+    padding: 20px;
+    margin: 20px;
+}
+.edu-info{
+    display: flex;
+    flex-direction: column;
+}
+.edu-info span{
+    padding-left: 20px;
+}
+/* Education page styling end */
