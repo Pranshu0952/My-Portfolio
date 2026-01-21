@@ -196,3 +196,34 @@
     padding-left: 20px;
 }
 /* Education page styling end */
+
+/* Contct Form styling start */
+.form-inp{
+    position: relative;
+    padding-bottom: 30px;
+}
+.form{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+}
+.form input {
+    height: 30px;
+    border-radius: 10px;
+}
+.form textarea{
+    height: 50px;
+    border-radius: 10px;
+}
+.form-inp button{
+    position: absolute;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #978989;
+    color: rgb(250, 250, 250);
+    right: 350px;
+}
+/* Contct Form styling end */
